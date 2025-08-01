@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="sunsetGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF4500;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FF6347;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFD700;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#sunsetGradient)"/>
+  <circle cx="200" cy="120" r="50" fill="#FF6347"/>
+  <path d="M0,250 Q200,230 400,250 L400,300 L0,300 Z" fill="#2F4F4F"/>
+  <text x="200" y="280" text-anchor="middle" fill="white" font-family="Arial" font-size="24">Sunset</text>
+</svg>
